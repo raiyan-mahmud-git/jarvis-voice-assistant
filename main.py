@@ -23,7 +23,7 @@ log = logging.getLogger("jarvis")
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 NEWS_API_KEY = os.getenv("NEWS_API_KEY")
 
-MODEL = os.getenv("AI_MODEL", "llama-3.3-70b-versatile")
+MODEL = os.getenv("AI_MODEL", "openai/gpt-oss-20b")
 
 
 VOICE = os.getenv("JARVIS_VOICE", "en-GB-RyanNeural")
